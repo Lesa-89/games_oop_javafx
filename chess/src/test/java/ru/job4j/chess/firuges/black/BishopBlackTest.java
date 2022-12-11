@@ -5,7 +5,6 @@ import ru.job4j.chess.firuges.Cell;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-
 class BishopBlackTest {
 
     @Test

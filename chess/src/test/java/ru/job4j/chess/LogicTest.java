@@ -32,6 +32,7 @@ public class LogicTest {
         });
         assertThat(exception.getMessage()).isEqualTo("Could not move by diagonal from C8 to C6");
     }
+
     @Test
     public void whenMoveThenOccupiedCellException()
             throws FigureNotFoundException, OccupiedCellException, ImpossibleMoveException {
